@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="MoreDialogAnim">
+        <item name="android:windowEnterAnimation">@anim/slide_to_left_out_cur</item>
+        <item name="android:windowExitAnimation">@anim/slide_to_right_cur_out</item>
+    </style>
+</resources>

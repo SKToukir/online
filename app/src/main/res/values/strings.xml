@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">Radio of America</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="splash_text">Radio of America</string>
+    <string name="search_input_hint">Search Web Radios&#8230;</string>
+
+    <!-- AdMob IDs -->
+    <!--banner-->
+    <string name="banner_main_footer">ca-app-pub-9590663615277504/8707072672</string>
+    <string name="banner_favorite_footer">ca-app-pub-9590663615277504/8707072672</string>
+    <!--interstitial-->
+    <string name="interstitial_ad_mainAcitivity">ca-app-pub-9590663615277504/3997671476</string>
+    <string name="interstitial_ad_favoriteActivity">ca-app-pub-9590663615277504/3997671476</string>
+
+    <string name="action_exit">close</string>
+    <string name="ticker_now_playing">Now Playing %1$s</string>
+    <string name="no_radio">No radio selected.</string>
+    <string name="buffering_ticker">Buffering&#8230;</string>
+    <string name="radio_buffering">Buffering radio %1$s</string>
+
+    <string name="connection_failed">Connection Failed. Please review your network settings.</string>
+    <string name="playing_radio_name">Playing radio %1$s</string>
+    <string name="connect_to_internet">Make sure you connect to internet for stations playback.</string>
+    <string name="ok">OK</string>
+
+    <string name="prefs">prefs</string>
+    <string name="prefs_radio_name">radio_name</string>
+    <string name="prefs_radio_url">radio_url</string>
+
+    <string name="tv_favorite">Favorites</string>
+
+    <string name="share_text_heading">TO DO: Enter share text heading</string>
+    <string name="share_text_body">TO DO: Enter share text body</string>
+    <string name="no_fav">Ops! You don\'t have anything here yet.\n\nYou can favorite stations by clicking heart icon at previous screen.</string>
+
+</resources>

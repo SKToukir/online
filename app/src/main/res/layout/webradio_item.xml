@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="4dip">
+
+    <ImageView
+        android:layout_width="60dip"
+        android:layout_height="60dip"
+        android:id="@+id/icon"/>
+
+    <TextView
+        android:id="@+id/tvWebradioName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/dark_grey"
+        android:layout_toLeftOf="@+id/imageFav"
+        android:layout_toRightOf="@+id/icon"
+        android:layout_toEndOf="@+id/icon"
+        android:layout_marginRight="12dip"
+        android:layout_marginLeft="12dip"
+        android:layout_marginTop="10dip"
+        />
+
+
+    <TextView
+        android:id="@+id/tvGenre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvWebradioName"
+        android:layout_alignLeft="@+id/tvWebradioName"
+        android:layout_alignRight="@+id/tvWebradioName"
+        android:layout_marginTop="5dip"
+        android:textSize="12sp"
+        android:textColor="@color/grey"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        />
+
+    <ImageView
+        android:id="@+id/imageFav"
+        android:layout_width="50dip"
+        android:layout_height="50dip"
+        android:padding="5dip"
+        android:src="@mipmap/heart_outline_white"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"/>
+
+</RelativeLayout>

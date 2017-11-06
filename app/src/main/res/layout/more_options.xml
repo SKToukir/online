@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/semi_trans_black_white_bordered">
+
+    <ImageButton
+        android:layout_width="80dip"
+        android:layout_height="80dip"
+        android:src="@mipmap/heart_outline_white2"
+        android:padding="5dip"
+        android:background="@drawable/sel_trans_grey"
+        android:id="@+id/fav"/>
+
+    <!--<ImageButton-->
+        <!--android:layout_width="80dip"-->
+        <!--android:layout_height="80dip"-->
+        <!--android:src="@mipmap/timer"-->
+        <!--android:padding="5dip"-->
+        <!--android:background="@drawable/sel_trans_grey"-->
+        <!--android:id="@+id/timer"/>-->
+
+    <!--<ImageButton-->
+        <!--android:layout_width="80dip"-->
+        <!--android:layout_height="80dip"-->
+        <!--android:src="@mipmap/feedback"-->
+        <!--android:layout_marginTop="0dip"-->
+        <!--android:padding="5dip"-->
+        <!--android:background="@drawable/sel_trans_grey"-->
+        <!--android:id="@+id/feedback"/>-->
+
+    <!--<ImageButton-->
+        <!--android:layout_width="80dip"-->
+        <!--android:layout_height="80dip"-->
+        <!--android:src="@mipmap/review"-->
+        <!--android:layout_marginTop="0dip"-->
+        <!--android:padding="5dip"-->
+        <!--android:background="@drawable/sel_trans_grey"-->
+        <!--android:id="@+id/review"/>-->
+
+    <!--<ImageButton-->
+        <!--android:layout_width="80dip"-->
+        <!--android:layout_height="80dip"-->
+        <!--android:src="@mipmap/playstore"-->
+        <!--android:layout_marginTop="0dip"-->
+        <!--android:padding="5dip"-->
+        <!--android:background="@drawable/sel_trans_grey"-->
+        <!--android:id="@+id/more"/>-->
+
+    <ImageButton
+        android:layout_width="80dip"
+        android:layout_height="80dip"
+        android:src="@mipmap/share"
+        android:layout_marginTop="7dip"
+        android:padding="5dip"
+        android:background="@drawable/sel_trans_grey"
+        android:id="@+id/share"/>
+
+</LinearLayout>
